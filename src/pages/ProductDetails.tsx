@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 import type { RootState, AppDispatch } from '../redux/store';
 import { fetchProducts } from '../redux/productSlice';
 import LoadingSpinner from '../components/LoadingSpinner';
